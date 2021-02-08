@@ -1,0 +1,10 @@
+// .hosts.yaml
+
+// Configure your TYPO3 production site
+
+marianaespana.com:
+  host: ftp109730-2622751@marianaespana.com
+  stage: production
+  branch: master
+  user: ftp109730-2622751
+  deploy_path: ~/var/www/marianaespana/projekt1
