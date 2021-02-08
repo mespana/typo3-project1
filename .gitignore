@@ -10,3 +10,6 @@ nbproject
 /public/typo3conf/*
 !/public/typo3conf/LocalConfiguration.php
 !/public/typo3conf/AdditionalConfiguration.php
+debug.log $ git rm --cached debug.log rm debug.log $ git commit -m Start ignoring debug.log
+.hosts.yaml
+deploy.php

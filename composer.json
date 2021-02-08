@@ -58,5 +58,8 @@
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
 		]
+	},
+	"require-dev": {
+		"deployer/deployer": "^6.8"
 	}
 }
