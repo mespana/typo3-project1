@@ -60,6 +60,7 @@
 		]
 	},
 	"require-dev": {
-		"deployer/deployer": "^6.8"
+		"deployer/deployer": "^6.8",
+		"deployer/dist": "^6.8"
 	}
 }
