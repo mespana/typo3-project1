@@ -25,7 +25,7 @@ set('use_relative_symlink', '0');
 
 // Hosts
 
-host('ftp109730-2622751@marianaespana.com')
+host('ftpxxx@xxx.com')
     ->set('deploy_path', '~/www/marianaespana/projekt1');
 
 //DocumentRoot / WebRoot for the TYPO3 automaticInstallation
