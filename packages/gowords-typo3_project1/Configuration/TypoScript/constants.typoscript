@@ -9,15 +9,15 @@
 ############
 page {
     logo {
-        file = EXT:typo3_project1/Resources/Public/Images/logo.svg
-        fileInverted = EXT:typo3_project1/Resources/Public/Images/logo-inverted.svg
-        height = 52
-        width = 192
+        file = EXT:gowords_typo3project1/Resources/Public/Images/WittemaierLogo.jpg
+        fileInverted = EXT:gowords_typo3project1/Resources/Public/Images/logo-inverted.svg
+        height = 120
+        width = 120
         alt = typo3-project1
         linktitle = typo3-project1
     }
     favicon {
-        file = EXT:typo3_project1/Resources/Public/Icons/favicon.ico
+        file = EXT:gowords_typo3project1/Resources/Public/Icons/favicon.ico
     }
     fluidtemplate {
         layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/Page/
@@ -32,12 +32,21 @@ page {
 ##################
 plugin.bootstrap_package {
     view {
-        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/
-        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/
-        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/
+        layoutRootPath = EXT:gowords_typo3project1/Resources/Private/Layouts/
+        partialRootPath = EXT:gowords_typo3project1/Resources/Private/Partials/
+        templateRootPath = EXT:gowords_typo3project1/Resources/Private/Templates/
     }
 }
 
+plugin.tx_indexedsearch {
+  view {
+    partialRootPaths {
+        10 = EXT:indexed_search/Resources/Private/Partials/
+        20 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
+        21 = EXT:gowords_typo3project1/Resources/Private/Extensions/IndexedSearch/Partials/
+        }
+    }
+}
 
 ########################
 ### CONTENT ELEMENTS ###
