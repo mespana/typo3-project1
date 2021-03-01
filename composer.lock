@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d077dbea22428e8702495b041779415f",
+    "content-hash": "aa366ec641502d7f33835e62843235d7",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -993,8 +993,8 @@
             "version": "1.0.0",
             "dist": {
                 "type": "path",
-                "url": "packages/gowords-typo3_project1",
-                "reference": "378155eaa111c7d7e7e7bde73f507a98fb178082"
+                "url": "packages/gowords-typo3-project1",
+                "reference": "500ad4759c2449667853a876cb0876e829e972e9"
             },
             "require": {
                 "bk2k/bootstrap-package": "^11.0"
@@ -1004,14 +1004,9 @@
                 "typo3-ter/typo3project1": "self.version"
             },
             "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "gowords_typo3project1"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "Gowords\\Typo3Project1\\": "Classes/"
+                    "Gowords\\Typo3Project1\\": "Classes"
                 }
             },
             "license": [
