@@ -4,7 +4,7 @@ Website Relaunch Wittemaier Bau GmbH
 
 ## Prerequisites
 
-* PHP 7.2
+* PHP 7.3
 
 # License
 
