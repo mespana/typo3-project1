@@ -1,0 +1,69 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:typo3_project1/Resources/Public/Images/WittemaierLogo.jpg
+        fileInverted = EXT:typo3_project1/Resources/Public/Images/logo-inverted.svg
+        height = 120
+        width = 120
+        alt = typo3-project1
+        linktitle = typo3-project1
+    }
+    favicon {
+        file = EXT:typo3_project1/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/Page/
+        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/
+        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/
+        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/
+    }
+}
+
+plugin.tx_indexedsearch {
+  view {
+    partialRootPaths {
+        10 = EXT:indexed_search/Resources/Private/Partials/
+        20 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
+        21 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/Partials/
+        }
+    }
+}
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}
