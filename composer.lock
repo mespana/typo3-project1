@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff3b75cbee53511e9ba0dcdd52693e26",
+    "content-hash": "eb182f2416c4ca66aa83d90ac56c056e",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -987,45 +987,6 @@
                 }
             ],
             "time": "2021-01-12T17:46:50+00:00"
-        },
-        {
-            "name": "gowords/typo3-project1",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "packages/gowords-typo3_project1",
-                "reference": "ec151ccd5da08f8981242ca9f148e3228db922fa"
-            },
-            "require": {
-                "bk2k/bootstrap-package": "^11.0"
-            },
-            "replace": {
-                "gowords/typo3project1": "self.version",
-                "typo3-ter/typo3project1": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "gowords_typo3project1"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Gowords\\Typo3Project1\\": "Classes/"
-                }
-            },
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Wittemaier Bau Website Relaunch",
-            "homepage": "https://www.marianaespana.com",
-            "keywords": [
-                "TYPO3 CMS",
-                "extension"
-            ],
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -6921,9 +6882,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "gowords/typo3-project1": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
