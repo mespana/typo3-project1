@@ -43,7 +43,7 @@ Templates/SearchForm.html
 				<div id="kesearch_filters"><f:render partial="Filters" arguments="{conf: conf, numberofresults: numberofresults, resultrows: resultrows, filters: filters}" /></div>
 			</f:if>
 
-		<f:form.button type="resetbutt"><a href="{resetUrl}" class="btn"><i class="fa fa-trash" aria-hidden="true"></i></a></f:form.button>
+		<f:form.reset_button type="reset_button"><a href="{resetUrl}" class="btn btn-secondary searchbox-button"><i class="fa fa-trash" aria-hidden="true"></i></a></f:form.reset_button>
 		<f:form.button type="submit" additionalAttributes="{aria-label:'Search'}" name="search[submitButton]" value="{f:translate(key: 'form.submit')}" id="ke_search_searchfield_submit" class="btn btn-primary searchbox-button"><i class="fa fa-lg fa-search" aria-hidden="true"></i></f:form.button>
 		</div>
 		</fieldset>
