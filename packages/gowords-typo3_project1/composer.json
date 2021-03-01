@@ -26,7 +26,6 @@
         }
     },
     "replace": {
-        "gowords/typo3project1": "self.version",
-        "typo3-ter/typo3project1": "self.version"
+        "gowords/typo3project1": "self.version"
     }
 }
