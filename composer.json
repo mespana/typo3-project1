@@ -14,7 +14,7 @@
 	"license": "GPL-2.0-or-later",
 	"config": {
 		"platform": {
-			"php": "7.3"
+			"php": "^7.2"
 		},
 		"sort-packages": true
 	},
@@ -24,7 +24,6 @@
 		"dirkpersky/typo3-rte-ckeditor-fontawesome": "^10.1",
 		"dmind/cookieman": "^2.7",
 		"georgringer/news": "^8.5",
-		"gowords/typo3-project1": "@dev",
 		"helhum/typo3-console": "^6.0.0",
 		"helhum/typoscript-rendering": "^2.3",
 		"in2code/powermail": "^8.2",
