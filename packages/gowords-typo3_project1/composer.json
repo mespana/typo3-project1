@@ -1,10 +1,16 @@
 {
     "name": "gowords/typo3-project1",
-    "type": "typo3-cms-extension",
     "description": "Wittemaier Bau Website Relaunch",
+    "keywords": ["TYPO3 CMS", "extension"],
     "homepage": "https://www.marianaespana.com",
+    "author": [
+      {
+        "name": "Mariana Espana-Rivera",
+        "email": "marianaespana@yahoo.es"
+      }
+    ],
     "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
+    "type": "typo3-cms-extension",
     "require": {
         "bk2k/bootstrap-package": "^11.0"
     },
@@ -17,5 +23,9 @@
       "typo3/cms": {
         "extension-key": "gowords_typo3project1"
         }
+    },
+    "replace": {
+        "gowords/typo3project1": "self.version",
+        "typo3-ter/typo3project1": "self.version"
     }
 }
