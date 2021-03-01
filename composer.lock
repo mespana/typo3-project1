@@ -994,13 +994,14 @@
             "dist": {
                 "type": "path",
                 "url": "packages/gowords-typo3_project1",
-                "reference": "58d605281b58f6d8b4a4cb8d70c95429c3b0fee4"
+                "reference": "378155eaa111c7d7e7e7bde73f507a98fb178082"
             },
             "require": {
                 "bk2k/bootstrap-package": "^11.0"
             },
             "replace": {
-                "gowords/typo3project1": "self.version"
+                "gowords/typo3project1": "self.version",
+                "typo3-ter/typo3project1": "self.version"
             },
             "type": "typo3-cms-extension",
             "extra": {
