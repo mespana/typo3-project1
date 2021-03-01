@@ -3,7 +3,7 @@
 nbproject
 /var/*
 !/var/labels
-/vendor
+vendor
 /public/*
 !/public/.htaccess
 !/public/typo3conf
@@ -13,3 +13,4 @@ nbproject
 debug.log $ git rm --cached debug.log rm debug.log $ git commit -m Start ignoring debug.log
 .hosts.yaml
 .deploy.php
+/packages/
