@@ -1,5 +1,6 @@
 {
     "name": "gowords/typo3-project1",
+    "version": "1.0.0",
     "description": "Wittemaier Bau Website Relaunch",
     "keywords": ["TYPO3 CMS", "extension"],
     "homepage": "https://www.marianaespana.com",
@@ -25,7 +26,7 @@
         }
     },
     "replace": {
-        "gowords/typo3project1": "1.0",
-        "typo3-ter/typo3project1": "1.0"
+        "gowords/typo3project1": "self.version",
+        "typo3-ter/typo3project1": "self.version"
     }
 }

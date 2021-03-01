@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb182f2416c4ca66aa83d90ac56c056e",
+    "content-hash": "d077dbea22428e8702495b041779415f",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -987,6 +987,45 @@
                 }
             ],
             "time": "2021-01-12T17:46:50+00:00"
+        },
+        {
+            "name": "gowords/typo3-project1",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/gowords-typo3_project1",
+                "reference": "378155eaa111c7d7e7e7bde73f507a98fb178082"
+            },
+            "require": {
+                "bk2k/bootstrap-package": "^11.0"
+            },
+            "replace": {
+                "gowords/typo3project1": "self.version",
+                "typo3-ter/typo3project1": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "gowords_typo3project1"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gowords\\Typo3Project1\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Wittemaier Bau Website Relaunch",
+            "homepage": "https://www.marianaespana.com",
+            "keywords": [
+                "TYPO3 CMS",
+                "extension"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "guzzlehttp/guzzle",
