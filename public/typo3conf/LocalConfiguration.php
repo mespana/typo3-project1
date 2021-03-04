@@ -71,7 +71,7 @@ return [
             'xlhtml' => '/usr/bin/',
         ],
         'ke_search' => [
-            'allowEmptySearch' => '1',
+            'allowEmptySearch' => '0',
             'enableExplicitAnd' => '0',
             'enablePartSearch' => '1',
             'finishNotification' => '0',
@@ -83,7 +83,7 @@ return [
             'pathCatdoc' => '/usr/bin/',
             'pathPdfinfo' => '/usr/bin/',
             'pathPdftotext' => '/usr/bin/',
-            'searchWordLength' => '4',
+            'searchWordLength' => '3',
         ],
         'news' => [
             'advancedMediaPreview' => '1',
