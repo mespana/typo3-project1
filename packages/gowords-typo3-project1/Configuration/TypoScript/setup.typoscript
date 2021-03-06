@@ -110,7 +110,7 @@ plugin.tx_indexedsearch {
 }
 
 
-# Create TypoScript Object
+## Create TypoScript Object
 lib.searchbox_plugin = COA_INT
 lib.searchbox_plugin {
   10 < plugin.tx_kesearch_pi1

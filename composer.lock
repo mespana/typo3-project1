@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7c8b9851f007c3f6b94f3e64a065fc6",
+    "content-hash": "aa366ec641502d7f33835e62843235d7",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -95,6 +95,49 @@
                 "source": "https://github.com/benjaminkott/bootstrap_package/tree/11.0.2"
             },
             "time": "2019-12-13T19:10:58+00:00"
+        },
+        {
+            "name": "browserwerk/bw_jobs",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Browserwerk/bw_jobs.git",
+                "reference": "3af8790a56751ff8d00478f6128f3932e2be7871"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Browserwerk/bw_jobs/zipball/3af8790a56751ff8d00478f6128f3932e2be7871",
+                "reference": "3af8790a56751ff8d00478f6128f3932e2be7871",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^9.5.4 || ^10.4.2"
+            },
+            "replace": {
+                "browserwerk/bw_jobs": "self.version",
+                "typo3-ter/bw_jobs": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Browserwerk\\BwJobs\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Bärtsch",
+                    "role": "Developer"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Browserwerk/bw_jobs/issues",
+                "source": "https://github.com/Browserwerk/bw_jobs/tree/1.2.3"
+            },
+            "time": "2020-08-26T06:37:51+00:00"
         },
         {
             "name": "cogpowered/finediff",
