@@ -21,12 +21,12 @@ set('writable_mode', 'chmod');
 set('use_relative_symlink', '0');
 
 // Set Server
-inventory('.hosts.yaml');
+//inventory('.hosts.yaml');
 
 // Hosts
 
-//host('ftp109730-2622751@marianaespana.com')
-//    ->set('deploy_path', '~/www/marianaespana/proyectos/typo3-project1');
+host('ftp109730-2622751@marianaespana.com')
+    ->set('deploy_path', '~/www/marianaespana/proyectos/typo3-project1');
 
 //DocumentRoot / WebRoot for the TYPO3 automaticInstallation
 set('typo3_webroot', 'public');
