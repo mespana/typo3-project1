@@ -20,7 +20,6 @@
 	},
 	"require": {
 		"bk2k/bootstrap-package": "^11.0",
-		"browserwerk/bw_jobs": "^1.2",
 		"dirkpersky/typo3-rte-ckeditor-fontawesome": "^10.1",
 		"dmind/cookieman": "^2.7",
 		"georgringer/news": "^8.5",

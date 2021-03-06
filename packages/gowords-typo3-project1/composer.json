@@ -17,8 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Gowords\\Typo3Project1\\": "Classes"
+            "Gowords\\Typo3Project1\\": "Classes/"
           }
+    },
+    "extra": {
+      "typo3/cms": {
+        "extension-key":"gowords_typo3project1"
+      }
     },
     "replace": {
         "gowords/typo3project1": "self.version",
