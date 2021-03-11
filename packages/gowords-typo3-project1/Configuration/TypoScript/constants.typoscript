@@ -39,14 +39,14 @@ plugin.bootstrap_package {
 }
 
 ##plugin.tx_indexedsearch {
-##  view {
-##    partialRootPaths {
-##        10 = EXT:indexed_search/Resources/Private/Partials/
-##        20 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
-##        21 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/Partials/
-##        }
-##    }
-##}
+  view {
+    partialRootPaths {
+        10 = EXT:indexed_search/Resources/Private/Partials/
+        20 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
+        21 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/Partials/
+        }
+    }
+}
 
 ########################
 ### CONTENT ELEMENTS ###
