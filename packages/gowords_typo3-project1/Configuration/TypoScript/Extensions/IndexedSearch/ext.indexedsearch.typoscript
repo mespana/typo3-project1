@@ -5,7 +5,7 @@
 # Configuration for indexedsearch plugin
 
 plugin.tx_indexedsearch {
-  templateFile = EXT:typo3_project1/Resources/Private/Layouts/Page/Default.html
+  templateFile = EXT:gowords_typo3project1/Resources/Private/Layouts/Page/Default.html
 
     forwardSearchWordsInResultLink= 0
     show {

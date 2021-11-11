@@ -445,9 +445,8 @@ ul.ui-autocomplete li a {
 	font-size: 12px;
 }
 
-
-.btn-primary:hover {
-color: #007fbf;
-background-color: #fefefe;
-border-color: rgba(0, 115, 153, 0.01);
+.btn:hover, .cc-btn:hover {
+    color: #2b2b2b;
+    text-decoration:none;
+    opacity: 0.2;
 }

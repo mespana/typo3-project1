@@ -9,9 +9,9 @@
 ##############
 page {
     includeCSS {
-     ## theme = EXT:typo3_project1/Resources/Public/Scss/Theme/theme.scss
-        css = EXT:typo3_project1/Resources/Public/Css/Theme/styles.css
-        css = EXT:typo3_project1/Resources/Public/Fontawesome/Css/all.css
+    ##  theme = EXT:gowords_typo3project1/Resources/Public/Scss/Theme/theme.scss
+        css = EXT:gowords_typo3project1/Resources/Public/Css/Theme/styles.css 
+        css = EXT:gowords_typo3project1/Resources/Public/Fontawesome/Css/all.css
 
     }
 
@@ -28,7 +28,7 @@ page {
     }
 
     includeJSFooter {
-        typo3_project1_scripts = EXT:typo3_project1/Resources/Public/JavaScript/Dist/scripts.js
+        typo3_project1_scripts = EXT:gowords_typo3project1/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
 
@@ -60,7 +60,7 @@ lib.headerSearch {
 # Configuration for indexedsearch plugin
 
 plugin.tx_indexedsearch {
-  templateFile = EXT:typo3_project1/Resources/Private/Layouts/Page/Default.html
+  templateFile = EXT:gowords_typo3project1/Resources/Private/Layouts/Page/Default.html
 
     forwardSearchWordsInResultLink= 0
     show {
@@ -94,16 +94,16 @@ plugin.tx_indexedsearch {
 plugin.tx_indexedsearch {
    view {
        templateRootPaths {
-           20 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/
+           20 = EXT:gowords_typo3project1/Resources/Private/Extensions/IndexedSearch/
            21 = {$plugin.bootstrap_package.view.templateRootPath}IndexedSearch/
        }
        partialRootPaths {
-           20 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/Partials/
+           20 = EXT:gowords_typo3project1/Resources/Private/Extensions/IndexedSearch/Partials/
            21 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
 
        }
        layoutRootPaths {
-           20 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/
+           20 = EXT:gowords_typo3project1/Resources/Private/Extensions/IndexedSearch/
            21 = {$plugin.bootstrap_package.view.layoutRootPath}IndexedSearch/
        }
    }
@@ -112,15 +112,15 @@ plugin.tx_indexedsearch {
 
 ## Create TypoScript Object
 
-lib.searchbox_plugin = COA_INT
-lib.searchbox_plugin {
+lib.headerSearch_plugin = COA_INT
+lib.headerSearch_plugin {
   10 < plugin.tx_kesearch_pi1
 
   10.resultPage = 27
 
   10.cssFile = EXT:ke_search/res/ke_search_pi1.css
 
-  10.loadFlexformsFromOtherCE = 152 // Search form plugin UID
+  10.loadFlexformsFromOtherCE = 156 // Search form plugin UID
 }
 
 
@@ -130,11 +130,22 @@ lib.searchbox_plugin {
 
 
 // load the new template path for NEWS +ext
-plugin.tx_news.view.templateRootPaths  = EXT:typo3_project1/Resources/Private/Extensions/newsstylist/Twb/Templates/
-
 // load the new partial path for NEWS +ext
-plugin.tx_news.view.partialRootPaths  = EXT:typo3_project1/Resources/Private/Extensions/newsstylist/Twb/Partials/
 
-plugin.tx_news.settings {
-    list.media.dummyImage = EXT:typo3_project1/Resources/Public/Images/pexels-scott-webb-k.jpg
+plugin.tx_news {
+  view {
+    templateRootPaths {
+      200 = EXT:gowords_typo3project1/Resources/Private/Extensions/newsstylist/Twb/Templates/
+        }
+    partialRootPaths {
+        200 =  EXT:gowords_typo3project1/Resources/Private/Extensions/newsstylist/Twb/Partials/
+      }
+    }
+    settings {
+        list {
+            media {
+              dummyImage = EXT:gowords_typo3project1/Resources/Public/Images/pexels-scott-webb-k.jpg
+            }
+        }
+    }
 }

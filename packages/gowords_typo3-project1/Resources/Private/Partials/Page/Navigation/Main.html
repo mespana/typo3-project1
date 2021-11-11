@@ -26,14 +26,10 @@
                 <f:render partial="DropIn/Navigation/MainBefore" arguments="{_all}" />
                 <f:render section="MainNavigation" arguments="{menu: mainnavigation, theme: theme}" />
                 <f:render partial="DropIn/Navigation/MainAfter" arguments="{_all}" />
-              <!--  <section class="searchbox-wrapper">
-                  <f:cObject typoscriptObjectPath="lib.headerSearch" />
-                </section> -->
             </nav>
         </f:if>
     </div>
 </header>
-
 <f:section name="MainNavigation">
     <f:if condition="{menu}">
         <ul class="navbar-nav">
