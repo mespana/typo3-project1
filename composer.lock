@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fe28b0441613c8048eedb1c065cd817",
+    "content-hash": "1c4da058849043dc419e0ad1bb208244",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -925,6 +925,71 @@
             "time": "2020-12-29T14:50:06+00:00"
         },
         {
+            "name": "fluidtypo3/vhs",
+            "version": "6.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FluidTYPO3/vhs.git",
+                "reference": "995a18d34975375a14b736b61be353a39a9b0e60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FluidTYPO3/vhs/zipball/995a18d34975375a14b736b61be353a39a9b0e60",
+                "reference": "995a18d34975375a14b736b61be353a39a9b0e60",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0.0",
+                "typo3/cms-backend": "^8.7 || ^9 || ^10 || dev-master",
+                "typo3/cms-core": "^8.7 || ^9 || ^10 || dev-master",
+                "typo3/cms-extbase": "^8.7 || ^9 || ^10 || dev-master",
+                "typo3/cms-fluid": "^8.7 || ^9 || ^10 || dev-master",
+                "typo3/cms-frontend": "^8.7 || ^9 || ^10 || dev-master"
+            },
+            "replace": {
+                "typo3-ter/vhs": "self.version"
+            },
+            "require-dev": {
+                "fluidtypo3/development": "^4.0"
+            },
+            "suggest": {
+                "ext-tidy": "Allows to make use of the tidy ViewHelper"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "extension-key": "vhs",
+                    "web-dir": "build/web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FluidTYPO3\\Vhs\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "The vhs package from FluidTYPO3",
+            "homepage": "https://fluidtypo3.org",
+            "keywords": [
+                "TYPO3 CMS",
+                "fedext",
+                "fluid",
+                "templating",
+                "utility",
+                "viewhelper"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/fedext",
+                "issues": "https://github.com/FluidTYPO3/vhs/issues",
+                "source": "https://github.com/FluidTYPO3/vhs/tree/6.0.5"
+            },
+            "time": "2021-01-22T12:29:10+00:00"
+        },
+        {
             "name": "georgringer/news",
             "version": "8.5.2",
             "source": {
@@ -1535,6 +1600,65 @@
                 "source": "https://github.com/einpraegsam/powermail/tree/8.3.1"
             },
             "time": "2021-03-08T10:18:22+00:00"
+        },
+        {
+            "name": "itx/jobapplications",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itx-informationssysteme/jobapplications.git",
+                "reference": "ed69158cbf900d7f09b08bdea27cddbed60163d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itx-informationssysteme/jobapplications/zipball/ed69158cbf900d7f09b08bdea27cddbed60163d5",
+                "reference": "ed69158cbf900d7f09b08bdea27cddbed60163d5",
+                "shasum": ""
+            },
+            "require": {
+                "fluidtypo3/vhs": "^6",
+                "typo3/cms-core": "^9.5 || ^10.4"
+            },
+            "replace": {
+                "itx/jobapplications": "self.version",
+                "typo3-ter/jobapplications": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "jobapplications"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ITX\\Jobapplications\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stefanie Döll",
+                    "email": "stefanie.doell@itx.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Benjamin Jasper",
+                    "email": "benjamin.jasper@itx.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This extension enables you to manage job postings, has an application form for applicants to apply and an Application Managment Backend Module",
+            "homepage": "http://www.itx.de",
+            "support": {
+                "docs": "https://docs.typo3.org/p/itx/jobapplications/master/en-us/",
+                "email": "typo-itx@itx.de",
+                "issues": "https://github.com/typo3-itx/jobapplications/issues",
+                "source": "https://github.com/itx-informationssysteme/jobapplications/tree/1.0.3"
+            },
+            "time": "2021-08-19T09:31:49+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -6739,5 +6863,5 @@
     "platform-overrides": {
         "php": "7.2"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

@@ -16,7 +16,11 @@
 		"platform": {
 			"php": "7.2"
 		},
-		"sort-packages": true
+		"sort-packages": true,
+		"allow-plugins": {
+			"typo3/cms-composer-installers": true,
+			"typo3/class-alias-loader": true
+		}
 	},
 	"require": {
 		"bk2k/bootstrap-package": "^11.0",
@@ -28,6 +32,7 @@
 		"helhum/typo3-console": "^6.0.0",
 		"helhum/typoscript-rendering": "^2.3",
 		"in2code/powermail": "^8.2",
+		"itx/jobapplications": "^1.0",
 		"teaminmedias-pluswerk/ke_search": "^3.4",
 		"teaminmedias-pluswerk/ke_search_hooks": "^3.2",
 		"typo3-ter/newsstylist": "^1.3",

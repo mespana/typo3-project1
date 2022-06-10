@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => false,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$cjUvTUx0Z3ozMklabG9iZA$vkzWAb0WyEazjfgygbOIjmBzM0CdpCLaOZepBSF5teE',
+        'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$RGxJS3lTSURRN1lXa1NTOA$zCtIHcfeTmeOM42tgGWpL5GKbcMk/ljQS/4KtjwPGKI',
         'loginSecurityLevel' => 'normal',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
@@ -15,6 +15,10 @@ return [
             'Default' => [
                 'charset' => 'utf8',
                 'driver' => 'mysqli',
+                'tableoptions' => [
+                    'charset' => 'utf8mb4',
+                    'collate' => 'utf8mb4_general_ci',
+                ],
             ],
         ],
     ],
@@ -70,6 +74,18 @@ return [
             'useMysqlFulltext' => '0',
             'xlhtml' => '/usr/bin/',
         ],
+        'jobapplications' => [
+            'allowedFileTypes' => '.pdf',
+            'companyName' => '',
+            'currency' => '',
+            'customFileSizeLimit' => '',
+            'indexing_api' => '0',
+            'indexing_api_debug' => '1',
+            'indexing_api_dev' => '0',
+            'key_path' => '',
+            'logo' => '',
+            'slugBehaviour' => 'uniqueInSite',
+        ],
         'ke_search' => [
             'allowEmptySearch' => '0',
             'enableExplicitAnd' => '0',
@@ -115,6 +131,9 @@ return [
             'l10n_mode_merge' => '0',
             'replaceIrreWithElementBrowser' => '0',
         ],
+        'vhs' => [
+            'disableAssetHandling' => '0',
+        ],
     ],
     'FE' => [
         'debug' => false,
@@ -125,10 +144,10 @@ return [
         ],
     ],
     'GFX' => [
-        'processor' => 'ImageMagick',
+        'processor' => 'GraphicsMagick',
         'processor_allowTemporaryMasksAsPng' => false,
-        'processor_colorspace' => 'sRGB',
-        'processor_effects' => true,
+        'processor_colorspace' => 'RGB',
+        'processor_effects' => false,
         'processor_enabled' => true,
         'processor_path' => '/usr/bin/',
         'processor_path_lzw' => '/usr/bin/',

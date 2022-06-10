@@ -12,7 +12,7 @@
 //
 // Navbar Brand
 //
-/*.navbar-mainnavigation {
+.navbar-mainnavigation {
     .navbar-brand {
         margin-right: $grid-gutter-width;
         @each $breakpoint in map-keys($navbar-heights) {
@@ -43,7 +43,7 @@
         }
     }
 }
-*/
+
 @import 'variables';
 
 .news {
@@ -84,7 +84,7 @@ span.label.label-info.text-tag {
 }
 
 .news div.extra * {
-  # color: #4d4a4a;
+  #color: #4d4a4a;
   text-transform: uppercase;
 }
 

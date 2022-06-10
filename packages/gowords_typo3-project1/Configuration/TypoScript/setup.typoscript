@@ -9,8 +9,8 @@
 ##############
 page {
     includeCSS {
-    ##  theme = EXT:gowords_typo3project1/Resources/Public/Scss/Theme/theme.scss
-        css = EXT:gowords_typo3project1/Resources/Public/Css/Theme/styles.css 
+       ## theme = EXT:gowords_typo3project1/Resources/Public/Scss/Theme/theme.scss
+        css = EXT:gowords_typo3project1/Resources/Public/Css/styles.css 
         css = EXT:gowords_typo3project1/Resources/Public/Fontawesome/Css/all.css
 
     }
@@ -118,7 +118,7 @@ lib.headerSearch_plugin {
 
   10.resultPage = 27
 
-  10.cssFile = EXT:ke_search/res/ke_search_pi1.css
+  10.cssFile = EXT:gowords_typo3project1/Resources/Public/Css/styles.css
 
   10.loadFlexformsFromOtherCE = 156 // Search form plugin UID
 }
@@ -144,7 +144,7 @@ plugin.tx_news {
     settings {
         list {
             media {
-              dummyImage = EXT:gowords_typo3project1/Resources/Public/Images/pexels-scott-webb-k.jpg
+              dummyImage = EXT:news/Resources/Public/Images/pexels-scott-webb-k.jpg
             }
         }
     }
