@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814829" source-language="en" datatype="plaintext" original="EXT:impexp/Resources/Private/Language/locallang_csh.xlf" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:impexp/Resources/Private/Language/locallang_csh.xlf" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
     <header/>
     <body>
       <trans-unit id=".alttitle" resname=".alttitle" approved="yes">
-        <source>Import/Export</source>
-        <target state="final">Import/Export</target>
+        <source>Import / Export</source>
+        <target state="final">Import / Export</target>
       </trans-unit>
       <trans-unit id=".description" resname=".description" approved="yes">
-        <source>Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</source>
-        <target state="final">Import/Export-Modul für TYPO3-Daten. Kann einzelne Datensätze, Tabelleninhalte, einzelne Seiten oder ganze Zweige des Seitenbaums exportieren. Berücksichtigt eingebundene Medien wie z.B. Bilder und behält Beziehungen zwischen Datensätzen bei. Exportiert nur TYPO3-spezifisches Format, entweder ein binäres Format (.T3D) oder XML. Das Format ist zum Datenaustausch zwischen TYPO3-Systemen vorgesehen.</target>
+        <source>Native module for importing and exporting TYPO3 data. Can export single records, content of tables, single pages, parts of or the whole page tree. Includes attached media like images and preserves relations between records. Exports either to XML or a TYPO3 specific format T3D (compressed or uncompressed). The format is meant for exchange between TYPO3 systems.</source>
+        <target state="final">Mitgeliefertes Modul zum Importieren und Exportieren von TYPO3-Daten. Kann einzelne Datensätze, Inhalte von Tabellen, einzelne Seiten, Teile oder den gesamten Seitenbaum exportieren. Schließt angehängte Medien wie Bilder ein und bewahrt die Beziehungen zwischen den Datensätzen. Exportiert entweder nach XML oder in ein TYPO3-spezifisches Format T3D (komprimiert oder unkomprimiert). Das Format ist für den Austausch zwischen TYPO3-Systemen gedacht.</target>
       </trans-unit>
       <trans-unit id="_.image" resname="_.image" approved="yes">
         <source>EXT:impexp/Resources/Public/Images/cshimages/impexp.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
         <target state="final">EXT:impexp/Resources/Public/Images/cshimages/impexp.png</target>
       </trans-unit>
       <trans-unit id=".image_descr" resname=".image_descr" approved="yes">
@@ -267,14 +266,10 @@ To delete old presets, simply select it and press "Delete".
 
 The checkbox "Public" can be set if you want to share your preset with other users of the system. Otherwise they are personal to you.
 </source>
-			<target state="final">Im Feld "Voreinstellung auswählen" können Sie jede zuvor gespeicherte Voreinstellung auswählen. Wenn Sie eine Seite exportieren, werden die Presets für die Startseiten-ID angezeigt. Für Datensätze kann jede Voreinstellung geladen werden.
-Um eine Voreinstellung zu laden, wähle sie im Selektor aus und drücke "Laden". Wenn Sie "Zusammenführen" drücken, werden die Einstellungen der Voreinstellung mit der aktuellen Konfiguration zusammengeführt. Dies ist sinnvoll in Fällen, in denen Sie mehrere einzelne Tabellen oder Datensätze auswählen.
-Um eine Voreinstellung zu speichern, geben Sie einfach einen Titel in das Titelfeld ein und drücken Sie "Speichern". Dies wird eine neue Voreinstellung erstellen. Wenn Sie bei der Auswahl einer bestehenden Voreinstellung speichern drücken, wird diese überschrieben.
-Um alte Voreinstellungen zu löschen, wählen Sie diese aus und drücken Sie "Löschen".
+			<target state="final">Bereits gespeicherte Voreinstellungen können Sie über die Auswahl im Feld "Voreinstellung auswählen" laden. Wenn Sie eine Seite exportieren werden die Voreinstellungen für die Startseiten ID angezeigt. Für Datensätze kann jede Voreinstellung geladen werden.
+Um eine Voreinstellung zu laden wählen Sie diese bitte in der Auswahl aus und klicken "Laden". Wenn Sie "Zusammenführen" klicken, wird die Voreinstellung mit der aktuellen Konfiguration zusammengeführt. Dies ist sinnvoll, wenn Sie mehrere einzelne Tabellen oder Datensätze auswählen. Um eine Voreinstellung abzuspeichern, geben Sie einfach eine Bezeichnung in das Titelfeld ein und klicken aus "Speichern". Dann wird die neue Voreinstellung erstellt. Falls beim Speichern gerade eine bereits vorhandene Voreinstellung ausgewählt ist, wird diese überschrieben. Alte Voreinstellungen können mit Klick auf "Löschen" einfach gelöscht werden.
 
-Das Kontrollkästchen "Öffentlich" kann gesetzt werden, wenn Sie Ihre Voreinstellung mit anderen Benutzern des Systems teilen möchten. Ansonsten sind sie persönlich für dich.
-
-Im Taskcenter kannst du eine Liste deiner Voreinstellungen sehen und direkt zu ihnen springen.
+Die Checkbox "Öffentlich" kann gesetzt werden wenn Sie die Voreinstellung auch für andere Benutzer verfügbar machen wollen. Ansonsten ist die Voreinstellungen nur für Sie sichtbar.
 </target></trans-unit>
       <trans-unit id="_presets.image" resname="_presets.image" xml:space="preserve" approved="yes">
 				<source>EXT:impexp/Resources/Public/Images/cshimages/impexp_misc1.png,

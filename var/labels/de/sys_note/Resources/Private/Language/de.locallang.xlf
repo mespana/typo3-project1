@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814996" source-language="en" datatype="plaintext" original="EXT:sys_note/Resources/Private/Language/locallang.xlf" date="2011-10-17T20:22:37Z" product-name="sys_note" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:sys_note/Resources/Private/Language/locallang.xlf" date="2011-10-17T20:22:37Z" product-name="sys_note" target-language="de">
     <header/>
     <body>
       <trans-unit id="internal_note" resname="internal_note" approved="yes">
         <source>Internal notes</source>
         <target state="final">Interne Notizen</target>
+      </trans-unit>
+      <trans-unit id="new_internal_note" resname="new_internal_note" approved="yes">
+        <source>Create internal note for this page</source>
+        <target state="final">Interne Notiz für diese Seite erstellen</target>
       </trans-unit>
       <trans-unit id="author" resname="author" approved="yes">
         <source>Author</source>

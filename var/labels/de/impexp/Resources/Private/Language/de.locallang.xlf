@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814828" source-language="en" datatype="plaintext" original="EXT:impexp/Resources/Private/Language/locallang.xlf" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:impexp/Resources/Private/Language/locallang.xlf" date="2011-10-17T20:22:33Z" product-name="impexp" target-language="de">
     <header/>
     <body>
       <trans-unit id="import" resname="import" approved="yes">
@@ -243,11 +243,11 @@
         <source>Notes</source>
         <target state="final">Anmerkungen:</target>
       </trans-unit>
-      <trans-unit id="makesavefo_t3dFileCompressed" resname="makesavefo_t3dFileCompressed" approved="yes">
+      <trans-unit id="makesavefo_t3d_compressed" resname="makesavefo_t3d_compressed" approved="yes">
         <source>T3D file / compressed</source>
         <target state="final">T3D-Datei/komprimiert</target>
       </trans-unit>
-      <trans-unit id="makesavefo_t3dFile" resname="makesavefo_t3dFile" approved="yes">
+      <trans-unit id="makesavefo_t3d" resname="makesavefo_t3d" approved="yes">
         <source>T3D file</source>
         <target state="final">T3D-Datei</target>
       </trans-unit>
@@ -331,10 +331,6 @@
         <source>Green values are from the import file, red values from the current database record and black values are similar in both versions.</source>
         <target state="final">Grüne Werte stammen aus der Importdatei, rote Werte aus dem aktuellen Datensatz und schwarze Werte sind in beiden gleich.</target>
       </trans-unit>
-      <trans-unit id="importdata_allowToWriteBanned" resname="importdata_allowToWriteBanned" approved="yes">
-        <source>Allow to write banned file extensions (eg. PHP scripts), if any</source>
-        <target state="final">Verbotene Dateierweiterungen dennoch erlauben (z.B. PHP-Skripte)</target>
-      </trans-unit>
       <trans-unit id="importdata_action" resname="importdata_action" approved="yes">
         <source>Action</source>
         <target state="final">Aktion:</target>
@@ -351,10 +347,6 @@
         <source>Import</source>
         <target state="final">Importieren von .t3d</target>
       </trans-unit>
-      <trans-unit id="importdata_areYouSure" resname="importdata_areYouSure" approved="yes">
-        <source>Are you sure?</source>
-        <target state="final">Vorgang tatsächlich fortführen?</target>
-      </trans-unit>
       <trans-unit id="importdata_newImport" resname="importdata_newImport" approved="yes">
         <source>New import</source>
         <target state="final">Neuer Import</target>
@@ -364,8 +356,8 @@
         <target state="final">Protokollierung einschalten:</target>
       </trans-unit>
       <trans-unit id="importdata_writeIndividualDbActions" resname="importdata_writeIndividualDbActions" approved="yes">
-        <source>Write individual DB actions during import to the log</source>
-        <target state="final">Alle während des Importvorgangs auftretenden Datenbankaktionen aufzeichnen</target>
+        <source>Write individual database actions during import to the log</source>
+        <target state="final">Während des Imports einzelne Datenbankaktionen in das Protokoll schreiben</target>
       </trans-unit>
       <trans-unit id="importdata_thisIsDisabledBy" resname="importdata_thisIsDisabledBy" approved="yes">
         <source>This is disabled by default since there may be hundred of entries generated.</source>
@@ -427,10 +419,6 @@
         <source>Email</source>
         <target state="final">E-Mail:</target>
       </trans-unit>
-      <trans-unit id="importdata_icon" resname="importdata_icon" approved="yes">
-        <source>Icon</source>
-        <target state="final">Symbol:</target>
-      </trans-unit>
       <trans-unit id="importdata_metaData_1387" resname="importdata_metaData_1387" approved="yes">
         <source>Meta data</source>
         <target state="final">Metadaten:</target>
@@ -442,10 +430,6 @@
       <trans-unit id="importdata_structureHasBeenImported" resname="importdata_structureHasBeenImported" approved="yes">
         <source>Structure has been imported, here is the result</source>
         <target state="final">Folgende Struktur wurde importiert, hier ist das Ergebnis:</target>
-      </trans-unit>
-      <trans-unit id="importdata_no_accessible_file_mount" resname="importdata_no_accessible_file_mount" approved="yes">
-        <source>No accessible filemount</source>
-        <target state="final">Keine zugängliche Dateifreigabe</target>
       </trans-unit>
       <trans-unit id="importdata_no_default_upload_folder" resname="importdata_no_default_upload_folder" approved="yes">
         <source>No default upload folder</source>

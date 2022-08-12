@@ -9,8 +9,8 @@
 ############
 page {
     logo {
-        file = EXT:typo3_project1/Resources/Public/Images/WittemaierLogo.jpg
-        fileInverted = EXT:typo3_project1/Resources/Public/Images/WittemaierLogo.jpg
+        file = EXT:gowords_typo3project1/Resources/Public/Images/WittemaierLogo.jpg
+        fileInverted = EXT:gowords_typo3project1/Resources/Public/Images/WittemaierLogo.jpg
         height = 120
         width = 120
         alt = Wittemaier Bau GmbH
@@ -20,9 +20,9 @@ page {
         file = EXT:typo3_project1/Resources/Public/Icons/favicon.ico
     }
     fluidtemplate {
-        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/Page/
-        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:gowords_typo3project1/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:gowords_typo3project1/Resources/Private/Partials/Page/
+        templateRootPath = EXT:gowords_typo3project1/Resources/Private/Templates/Page/
     }
 }
 
@@ -32,9 +32,9 @@ page {
 ##################
 plugin.bootstrap_package {
     view {
-        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/
-        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/
-        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/
+        layoutRootPath = EXT:gowords_typo3project1/Resources/Private/Layouts/
+        partialRootPath = EXT:gowords_typo3project1/Resources/Private/Partials/
+        templateRootPath = EXT:gowords_typo3project1/Resources/Private/Templates/
     }
 }
 
@@ -43,7 +43,7 @@ plugin.bootstrap_package {
     partialRootPaths {
         10 = EXT:indexed_search/Resources/Private/Partials/
         20 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
-        21 = EXT:typo3_project1/Resources/Private/Extensions/IndexedSearch/Partials/
+        21 = EXT:gowords_typo3project1/Resources/Private/Extensions/IndexedSearch/Partials/
         }
     }
 }
@@ -53,9 +53,9 @@ plugin.bootstrap_package {
 ########################
 plugin.bootstrap_package_contentelements {
     view {
-        layoutRootPath = EXT:typo3_project1/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:typo3_project1/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:typo3_project1/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:gowords_typo3project1/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:gowords_typo3project1/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:gowords_typo3project1/Resources/Private/Templates/ContentElements/
     }
 }
 
@@ -64,6 +64,6 @@ plugin.bootstrap_package_contentelements {
 ### BOOTSTRAP SCSS CONSTANTS ###
 ################################
 plugin.bootstrap_package.settings.scss {
-    primary = #eb3e4a
-    secondary = #013859
+    primary = #0099cc
+    secondary = #e76f51
 }

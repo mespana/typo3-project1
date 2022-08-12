@@ -6,7 +6,7 @@
 //
 // Import needed Bootstrap Package Files
 //
-@import "../../../../../bootstrap_package/Resources/Public/Scss/Theme/theme";
+@import "../../../../../bootstrap_package/Resources/Public/Scss/bootstrap4/theme";
 
 
 //
@@ -84,7 +84,7 @@ span.label.label-info.text-tag {
 }
 
 .news div.extra * {
-  #color: #4d4a4a;
+  /*color: #4d4a4a;*/
   text-transform: uppercase;
 }
 
@@ -155,4 +155,27 @@ span.label.label-info.text-tag {
 div.news h3 {
     font-size: 22px;
     font-weight: bold;
+}
+
+
+//
+// Figure
+// --------------------------------------------------
+figure {
+    display: block;
+    margin-bottom: 1rem;
+    img,
+    picture {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .caption {
+        padding-top: 0.5rem;
+        font-size: .85rem;
+        word-wrap: break-word;
+        opacity: .8;
+        text-align: center;
+    }
 }

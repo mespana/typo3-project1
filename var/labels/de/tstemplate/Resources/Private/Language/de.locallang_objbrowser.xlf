@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415815006" source-language="en" datatype="plaintext" original="EXT:tstemplate/Resources/Private/Language/locallang_objbrowser.xlf" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:tstemplate/Resources/Private/Language/locallang_objbrowser.xlf" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
     <header/>
     <body>
       <trans-unit id="constants" resname="constants" approved="yes">
@@ -159,6 +159,10 @@
         <source>Conditions</source>
         <target state="final">Bedingungen</target>
       </trans-unit>
+      <trans-unit id="activeConditions" resname="activeConditions" approved="yes">
+        <source>%s active condition(s)</source>
+        <target state="final">%s aktive Bedingung(en)</target>
+      </trans-unit>
       <trans-unit id="setConditions" resname="setConditions" approved="yes">
         <source>Set conditions</source>
         <target state="final">Bedingungen setzen</target>
@@ -172,6 +176,22 @@
         <target state="final">Warnung</target>
       </trans-unit>
       <trans-unit id="severity.3" resname="severity.3" approved="yes">
+        <source>Error</source>
+        <target state="final">Fehler</target>
+      </trans-unit>
+      <trans-unit id="severity.info" resname="severity.info" approved="yes">
+        <source>Info</source>
+        <target state="final">Info</target>
+      </trans-unit>
+      <trans-unit id="severity.notice" resname="severity.notice" approved="yes">
+        <source>Notice</source>
+        <target state="final">Hinweis</target>
+      </trans-unit>
+      <trans-unit id="severity.warning" resname="severity.warning" approved="yes">
+        <source>Warning</source>
+        <target state="final">Warnung</target>
+      </trans-unit>
+      <trans-unit id="severity.error" resname="severity.error" approved="yes">
         <source>Error</source>
         <target state="final">Fehler</target>
       </trans-unit>

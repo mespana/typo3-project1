@@ -4,7 +4,6 @@ return [
         'debug' => false,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$RGxJS3lTSURRN1lXa1NTOA$zCtIHcfeTmeOM42tgGWpL5GKbcMk/ljQS/4KtjwPGKI',
-        'loginSecurityLevel' => 'normal',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
             'options' => [],
@@ -32,19 +31,20 @@ return [
     'EXTENSIONS' => [
         'backend' => [
             'backendFavicon' => '',
-            'backendLogo' => '',
-            'loginBackgroundImage' => '',
-            'loginFootnote' => '',
+            'backendLogo' => 'EXT:gowords_typo3project1/Resources/Public/Images/logo.png',
+            'loginBackgroundImage' => 'EXT:gowords_typo3project1/Resources/Public/Images/layout/wittemaier_hintergrund2.jpg',
+            'loginFootnote' => 'All Rechte vorbehalten © Wittemaier Bau GmbH ',
             'loginHighlightColor' => '',
-            'loginLogo' => '',
+            'loginLogo' => 'EXT:gowords_typo3project1/Resources/Public/Images/preloader.png',
+            'loginLogoAlt' => 'Wittemaer Bau GmbH',
         ],
         'bootstrap_package' => [
             'disableCssProcessing' => '0',
-            'disableFontLoader' => '0',
             'disableGoogleFontCaching' => '0',
             'disablePageTsBackendLayouts' => '0',
             'disablePageTsContentElements' => '0',
             'disablePageTsRTE' => '0',
+            'disablePageTsTCADefaults' => '0',
             'disablePageTsTCEFORM' => '0',
             'disablePageTsTCEMAIN' => '0',
         ],
@@ -55,6 +55,7 @@ return [
         'indexed_search' => [
             'catdoc' => '/usr/bin/',
             'debugMode' => '0',
+            'deleteFromIndexAfterEditing' => '1',
             'disableFrontendIndexing' => '0',
             'enableMetaphoneSearch' => '1',
             'flagBitMask' => '192',
@@ -87,7 +88,7 @@ return [
             'slugBehaviour' => 'uniqueInSite',
         ],
         'ke_search' => [
-            'allowEmptySearch' => '0',
+            'allowEmptySearch' => '1',
             'enableExplicitAnd' => '0',
             'enablePartSearch' => '1',
             'finishNotification' => '0',
@@ -99,40 +100,7 @@ return [
             'pathCatdoc' => '/usr/bin/',
             'pathPdfinfo' => '/usr/bin/',
             'pathPdftotext' => '/usr/bin/',
-            'searchWordLength' => '3',
-        ],
-        'news' => [
-            'advancedMediaPreview' => '1',
-            'archiveDate' => 'date',
-            'categoryBeGroupTceFormsRestriction' => '0',
-            'categoryRestriction' => '',
-            'contentElementPreview' => '1',
-            'contentElementRelation' => '1',
-            'dateTimeNotRequired' => '0',
-            'hidePageTreeForAdministrationModule' => '0',
-            'manualSorting' => '0',
-            'mediaPreview' => 'false',
-            'prependAtCopy' => '1',
-            'resourceFolderImporter' => '/news_import',
-            'rteForTeaser' => '0',
-            'showAdministrationModule' => '1',
-            'showImporter' => '0',
-            'slugBehaviour' => 'unique',
-            'storageUidImporter' => '1',
-            'tagPid' => '1',
-        ],
-        'powermail' => [
-            'disableBackendModule' => '0',
-            'disableIpLog' => '1',
-            'disableMarketingInformation' => '0',
-            'disablePluginInformation' => '0',
-            'disablePluginInformationMailPreview' => '0',
-            'enableCaching' => '0',
-            'l10n_mode_merge' => '0',
-            'replaceIrreWithElementBrowser' => '0',
-        ],
-        'vhs' => [
-            'disableAssetHandling' => '0',
+            'searchWordLength' => '4',
         ],
     ],
     'FE' => [
@@ -184,25 +152,25 @@ return [
                 'imagesizes' => [
                     'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
                     'options' => [
-                        'compression' => 1,
+                        'compression' => true,
                     ],
                 ],
                 'pages' => [
                     'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
                     'options' => [
-                        'compression' => 1,
+                        'compression' => true,
                     ],
                 ],
                 'pagesection' => [
                     'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
                     'options' => [
-                        'compression' => 1,
+                        'compression' => true,
                     ],
                 ],
                 'rootline' => [
                     'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
                     'options' => [
-                        'compression' => 1,
+                        'compression' => true,
                     ],
                 ],
             ],

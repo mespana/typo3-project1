@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814794" source-language="en" datatype="plaintext" original="EXT:frontend/Resources/Private/Language/locallang_csh_ttcontent.xlf" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:frontend/Resources/Private/Language/locallang_csh_ttcontent.xlf" date="2011-10-17T20:22:32Z" product-name="context_help" target-language="de">
     <header/>
     <body>
       <trans-unit id=".description" resname=".description" approved="yes">
@@ -33,6 +33,105 @@ In the Frontend, a Content Element like the above could look like this.</source>
         <source>Select the kind of Page Content this element represents. New options will appear when you save the record.</source>
         <target state="final">Wählen Sie die Art des Seiteninhalts aus, den dieser Datensatz darstellt. Neue Optionen erscheinen, sobald Sie den Datensatz speichern.</target>
       </trans-unit>
+      <trans-unit id="CType.details" resname="CType.details" xml:space="preserve" approved="yes">
+				<source>The 'Type' of content you select determines which options are available in the editing form so be sure to save the record before making other changes.
+
+This is a description of the various types:
+
+&lt;strong&gt;Header&lt;/strong&gt;
+This type allows you to insert a standard Content Element header and nothing more.
+Almost all the other types described below also include the Header and its options. The Header type provides a way to insert a header without any other content.
+
+&lt;strong&gt;Text&lt;/strong&gt;
+The Text type allows you to insert regular page content. It is generally used for text only content.
+
+&lt;strong&gt;Text &amp; Images&lt;/strong&gt;
+This is the same as the Text type (regular page content) but with the option of attaching images.
+
+&lt;strong&gt;Image&lt;/strong&gt;
+The Image type allows you to insert image only page content.
+
+&lt;strong&gt;Bullet List&lt;/strong&gt;
+Lets you create a bullet list. Each line in the text field will appear as a single bullet.
+
+&lt;strong&gt;Table&lt;/strong&gt;
+Lets you create &lt;em&gt;simple&lt;/em&gt; tables. Each line represents a row in the table and vertical bars ('|') separate each column. A popup wizard is also available.
+
+&lt;strong&gt;File Links&lt;/strong&gt;
+Allows you to present a list of files for download. Thumbnails can be attached to the list and you can also display the file size.
+
+&lt;strong&gt;Form&lt;/strong&gt;
+Lets you create mail forms using a special syntax or a popup wizard.
+
+&lt;strong&gt;Search&lt;/strong&gt;
+This inserts a search box and also shows the search results when a search is performed on the page.
+
+&lt;strong&gt;Login&lt;/strong&gt;
+Displays a login box for website users. This is only useful if you have already created website users and usergroups.
+
+&lt;strong&gt;Menu/Sitemap&lt;/strong&gt;
+Offers a selection of menus and a sitemap you can insert on a page.
+
+&lt;strong&gt;Insert records&lt;/strong&gt;
+This acts as placeholder for other records. With this content element, you can reuse multiple content elements from other pages.
+
+&lt;strong&gt;Insert plugin&lt;/strong&gt;
+This will allows you to insert news, forums, guestbooks, lists of addresses, and other functionality. Plugins are typically provided by TYPO3 extensions. The available fields and required configuration depend on the extension.
+
+&lt;strong&gt;Divider&lt;/strong&gt;
+This inserts a simple horizontal rule on a page.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+This is plain HTML content. Anything added in the HTML Code of this Content Element will be displayed directly on the page without any preprocessing.</source>
+			<target state="final">Der ausgewählte Inhaltstyp bestimmt, welche Optionen im Bearbeitungsformular verfügbar sind. Speichern Sie daher den Datensatz, bevor Sie weitere Änderungen vornehmen.
+
+Dies ist eine Beschreibung der verschiedenen Typen:
+
+&lt;strong&gt;Überschrift&lt;/strong&gt;
+Mit diesem Typ können Sie eine Überschrift einfügen, mehr nicht.
+Fast alle anderen im Folgenden beschriebenen Typen beinhalten auch die Überschrift und seine Optionen. Der Überschrift-Typ bietet eine Möglichkeit, eine Überschrift ohne weiteren Inhalt einzufügen.
+
+&lt;strong&gt;Text&lt;/strong&gt;
+Mit dem Typ Text können Sie regulären Seiteninhalt einfügen. Es wird im Allgemeinen für reinen Textinhalt verwendet.
+
+&lt;strong&gt;Text &amp; Bilder&lt;/strong&gt;
+Dies entspricht dem Typ Text (normaler Seiteninhalt), jedoch mit der Möglichkeit, Bilder einzufügen.
+
+&lt;strong&gt;Bilder&lt;/strong&gt;
+Der Typ Bilder ermöglicht das Einfügen von Seiteninhalten, die nur aus Bildern bestehen.
+
+&lt;strong&gt;Aufzählung&lt;/strong&gt;
+Ermöglicht das Erstellen einer Aufzählungsliste. Jede Zeile im Textfeld wird als einzelnes Aufzählungselement angezeigt.
+
+&lt;strong&gt;Tabelle&lt;/strong&gt;
+Ermöglicht das Erstellen von &lt;em&gt;einfachen&lt;/em&gt; Tabellen. Jede Zeile stellt eine Zeile in der Tabelle dar und vertikale Striche ('|') trennen jede Spalte. Ein Popup-Assistent ist ebenfalls verfügbar.
+
+&lt;strong&gt;Dateilinks&lt;/strong&gt;
+Ermöglicht Ihnen, eine Liste von Dateien zum Herunterladen anzuzeigen. Miniaturansichten können dazugefügt werden und Sie können sich auch die Dateigröße anzeigen lassen.
+
+&lt;strong&gt;Form&lt;/strong&gt;
+Ermöglicht das Erstellen von Mailformularen mit einer speziellen Syntax oder einem Popup-Assistenten.
+
+&lt;strong&gt;Suche&lt;/strong&gt;
+Dadurch wird ein Suchfeld eingefügt und auch die Suchergebnisse angezeigt, wenn eine Suche auf der Seite durchgeführt wird.
+
+&lt;strong&gt;Anmeldung&lt;/strong&gt;
+Zeigt ein Anmeldefeld (Login) für Website-Benutzer an. Dies ist nur sinnvoll, wenn Sie bereits Website-Benutzer und Benutzergruppen angelegt haben.
+
+&lt;strong&gt;Menü/Sitemap&lt;/strong&gt;
+Bietet eine Auswahl an Menüs und eine Sitemap, die Sie auf einer Seite einfügen können.
+
+&lt;strong&gt;Datensatz einfügen&lt;/strong&gt;
+Dies dient als Platzhalter für andere Datensätze. Mit diesem Inhaltselement können Sie mehrere Inhaltselemente von anderen Seiten wiederverwenden.
+
+&lt;strong&gt;Plug-In einfügen&lt;/strong&gt;
+Auf diese Weise können Sie Nachrichten, Foren, Gästebücher, Adresslisten und andere Funktionen einfügen. Plug-Ins werden normalerweise von TYPO3-Erweiterungen bereitgestellt. Die verfügbaren Felder und die erforderliche Konfiguration hängen von der Erweiterung ab.
+
+&lt;strong&gt;Trenner&lt;/strong&gt;
+Dadurch wird eine einfache horizontale Linie auf einer Seite eingefügt.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+Dies ist einfacher HTML-Inhalt. Alles, was im HTML-Code dieses Inhaltselements hinzugefügt wird, wird ohne Vorverarbeitung direkt auf der Seite angezeigt.</target></trans-unit>
       <trans-unit id="_CType.seeAlso" resname="_CType.seeAlso" xml:space="preserve" approved="yes">
 				<source>tt_content:colPos,
 tt_content:sys_language_uid,
@@ -45,6 +144,10 @@ tt_content:sys_language_uid,
         <source>EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png</source>
         <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
         <target state="final">EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png</target>
+      </trans-unit>
+      <trans-unit id="hidden.description" resname="hidden.description" approved="yes">
+        <source>Uncheck this box if you wish to disable the Content Element and keep it from being displayed on the website.</source>
+        <target state="final">Deaktivieren um das Content Element auf der Website auszublenden.</target>
       </trans-unit>
       <trans-unit id="_hidden.seeAlso" resname="_hidden.seeAlso" xml:space="preserve" approved="yes">
 				<source>tt_content:starttime,
@@ -170,8 +273,10 @@ _MOD_web_layout:columns_single</target></trans-unit>
       <trans-unit id="header.details" resname="header.details" xml:space="preserve" approved="yes">
 				<source>Almost all Content Elements will display this header above the content. If you don't want the header displayed, set the header Layout to "Hidden". You can also choose not to enter any content in this field.
 
-Some content element types do not display the header by default. In those cases the Header field is typically labeled "Name" instead. One example is the HTML Content Element.</source>
-			<target state="final">Fast alle Elemente (außer z.B. HTML) können eine Überschrift vor dem Inhalt anzeigen. Falls Sie nicht wollen, dass ein Titel angezeigt wird, wählen Sie den Überschriftstyp "verborgen" aus. Alternativ können Sie das Feld auch leer lassen. Einige Inhaltselemente zeigen die Überschrift standardmäßig nicht an. In solchen Fällen wird das Feld "Name" genannt. Einer dieser Typen ist "HTML".</target></trans-unit>
+Some content element types do not display the header by default. In those cases the Header field is typically labeled "Name" instead. One example is the HTML Content Element. The chosen name will then only be displayed in menus, e.g. the section index.</source>
+			<target state="final">Bei fast allen Inhaltselementen wird diese Kopfzeile über dem Inhalt angezeigt. Wenn Sie nicht möchten, dass die Überschrift angezeigt wird, setzen Sie das Layout der Überschrift auf "Verborgen". Sie können dieses Feld auch leer lassen.
+
+Bei einigen Inhaltselementtypen wird die Kopfzeile standardmäßig nicht angezeigt. In diesen Fällen ist das Feld Überschrift in der Regel stattdessen mit "Name" beschriftet. Ein Beispiel ist das HTML-Inhaltselement. Der gewählte Name wird dann nur in Menüs angezeigt, z. B. in der Abschnittsübersicht.</target></trans-unit>
       <trans-unit id="_header.seeAlso" resname="_header.seeAlso" xml:space="preserve" approved="yes">
 				<source>tt_content:header_position,
 tt_content:header_link,

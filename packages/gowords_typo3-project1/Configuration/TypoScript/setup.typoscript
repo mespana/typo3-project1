@@ -9,7 +9,7 @@
 ##############
 page {
     includeCSS {
-       ## theme = EXT:gowords_typo3project1/Resources/Public/Scss/Theme/theme.scss
+        theme = EXT:gowords_typo3project1/Resources/Public/Scss/Theme/theme.scss
         css = EXT:gowords_typo3project1/Resources/Public/Css/styles.css 
         css = EXT:gowords_typo3project1/Resources/Public/Fontawesome/Css/all.css
 

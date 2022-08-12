@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814838" source-language="en" datatype="plaintext" original="EXT:indexed_search/Resources/Private/Language/locallang.xlf" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:indexed_search/Resources/Private/Language/locallang.xlf" date="2011-12-18T10:19:20Z" product-name="indexed_search" target-language="de">
     <header/>
     <body>
       <trans-unit id="localizedOperandAnd" resname="localizedOperandAnd" approved="yes">
@@ -19,6 +19,21 @@
         <source>Rules</source>
         <target state="final">Regeln</target>
       </trans-unit>
+      <trans-unit id="rules.text" resname="rules.text" xml:space="preserve" approved="yes">
+				<source><![CDATA[Only words with 2 or more characters are accepted<br />
+Max 200 chars total<br />
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)<br />
+AND, OR and NOT are prefix words, overruling the default operator<br />
++/|/- equals AND, OR and NOT as operators.<br />
+All search words are converted to lowercase.
+]]></source>
+			<target state="final"><![CDATA[Nur Wörter mit 2 oder mehr Zeichen werden akzeptiert.&lt;br /&gt;
+Maximal 200 Zeichen insgesamt.&lt;br /&gt;
+Leerzeichen werden zur Trennung von Worten verwendet, "" kann für die Suche nach ganzen Zeichenfolgen benutzt werden (keine Indexsuche).&lt;br /&gt;
+UND, ODER und NICHT sind Suchoperatoren, die den standardmäßigen Operator überschreiben.&lt;br /&gt;
++/|/- entspricht UND, ODER und NICHT als Operatoren.&lt;br /&gt;
+Alle Suchwörter werden zu Kleinschreibung konvertiert.
+]]></target></trans-unit>
       <trans-unit id="form.legend" resname="form.legend" approved="yes">
         <source>Search form</source>
         <target state="final">Suchformular</target>
@@ -594,6 +609,14 @@
       <trans-unit id="administration.noPageSelected" resname="administration.noPageSelected" approved="yes">
         <source>Please select a page from the page tree.</source>
         <target state="final">Bitte wählen Sie eine Seite aus dem Seitenbaum aus.</target>
+      </trans-unit>
+      <trans-unit id="administration.moduleFunctions.mode" resname="administration.moduleFunctions.mode" approved="yes">
+        <source>Mode</source>
+        <target state="final">Modus</target>
+      </trans-unit>
+      <trans-unit id="administration.moduleFunctions.depth" resname="administration.moduleFunctions.depth" approved="yes">
+        <source>Depth</source>
+        <target state="final">Tiefe</target>
       </trans-unit>
       <trans-unit id="error.noTypoScript" resname="error.noTypoScript" approved="yes">
         <source>Error: Please check that TypoScript for the Indexed Search plugin is included.</source>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1600505616" source-language="en" datatype="plaintext" original="EXT:impexp/Resources/Private/Language/locallang_tca.xlf" date="2020-09-19T08:53:36Z" product-name="impexp" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:impexp/Resources/Private/Language/locallang_tca.xlf" date="2020-09-19T08:53:36Z" product-name="impexp" target-language="de">
     <header/>
     <body>
       <trans-unit id="tx_impexp_presets" resname="tx_impexp_presets" xml:space="preserve" approved="yes">

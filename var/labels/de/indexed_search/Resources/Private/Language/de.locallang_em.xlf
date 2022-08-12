@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" version="1.0">
-  <file t3:id="1415814839" source-language="en" datatype="plaintext" original="EXT:indexed_search/Resources/Private/Language/locallang_em.xlf" date="2011-10-17T20:22:32Z" product-name="indexed_search" target-language="de">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:indexed_search/Resources/Private/Language/locallang_em.xlf" date="2011-10-17T20:22:32Z" product-name="indexed_search" target-language="de">
     <header/>
     <body>
       <trans-unit id="indexedsearch.config.pdftools" resname="indexedsearch.config.pdftools" approved="yes">
@@ -79,9 +79,9 @@
         <source>Use MySQL specific fulltext search - Update database schema in install tool after toggling this flag</source>
         <target state="final">Die Volltextsuche von MySQL benutzen - aktualisieren Sie die Datenbank im Install-Tool, nachdem Sie diese Option umgestellt haben</target>
       </trans-unit>
-      <trans-unit id="indexedsearch.config.trackIpInStatistic" resname="indexedsearch.config.trackIpInStatistic" approved="yes">
-        <source>Define the privacy level of the logged IP: 0 for no mask which means no privacy, 1 for masking the host and 2 for masking host and subnet (full privacy)</source>
-        <target state="final">Legen Sie das Datenschutzniveau der protokollierten IP fest: 0 für keine Maskierung, mithin für keinen Datenschutz. 1 für Maskierung des Hosts und 2 für Maskierung des Subnetzes (voller Datenschutz)</target>
+      <trans-unit id="indexedsearch.config.deleteFromIndexAfterEditing" resname="indexedsearch.config.deleteFromIndexAfterEditing" approved="yes">
+        <source>Remove content from index if page or its content is edited</source>
+        <target state="final">Inhalt aus dem Index entfernen, wenn die Seite oder ihr Inhalt bearbeitet wird</target>
       </trans-unit>
     </body>
   </file>
