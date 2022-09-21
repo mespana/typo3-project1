@@ -23,6 +23,7 @@
 		}
 	},
 	"require": {
+		"dirkpersky/typo3-rte-ckeditor-fontawesome": "^11.5",
 		"gowords/typo3-project1": "^2.0.0",
 		"helhum/typo3-console": "^7.1",
 		"itx/jobapplications": "^2.0",

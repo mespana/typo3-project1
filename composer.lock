@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc6d8f875d6b56be86fc54e1a9fd856f",
+    "content-hash": "24a3f3b5deed532b4983439ce480b788",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -274,6 +274,73 @@
                 "source": "https://github.com/DASPRiD/Enum/tree/1.0.3"
             },
             "time": "2020-10-02T16:03:48+00:00"
+        },
+        {
+            "name": "dirkpersky/typo3-rte-ckeditor-fontawesome",
+            "version": "11.5.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DirkPersky/typo3-rte-ckeditor-fontawesome.git",
+                "reference": "9bf703b9b430cbb627ac342a3177cf76403cec32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DirkPersky/typo3-rte-ckeditor-fontawesome/zipball/9bf703b9b430cbb627ac342a3177cf76403cec32",
+                "reference": "9bf703b9b430cbb627ac342a3177cf76403cec32",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^10.4.0||^11.5.0||dev-master",
+                "typo3/cms-rte-ckeditor": "^10.4.0||^11.5.0||dev-master"
+            },
+            "replace": {
+                "typo3-ter/rte_ckeditor_fontawesome": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "rte_ckeditor_fontawesome",
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dirk Persky",
+                    "homepage": "http://dp-wired.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds the Fontawesome add-on to the CKEditor in TYPO3.",
+            "homepage": "https://github.com/DirkPersky/typo3-rte-ckeditor-fontawesome",
+            "keywords": [
+                "CKEditor",
+                "FontAwesome",
+                "extension",
+                "icon",
+                "iconfont",
+                "rte",
+                "typo3"
+            ],
+            "support": {
+                "issues": "https://github.com/DirkPersky/typo3-rte-ckeditor-fontawesome/issues",
+                "source": "https://github.com/DirkPersky/typo3-rte-ckeditor-fontawesome/tree/11.5.5"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/dirkpersky",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/DirkPersky",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-05-07T23:06:55+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -7604,5 +7671,5 @@
     "platform-overrides": {
         "php": "7.4.1"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }

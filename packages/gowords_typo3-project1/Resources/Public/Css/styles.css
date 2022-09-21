@@ -10,22 +10,22 @@
     clear: both;
 }
 
-
 /* formElements */
-.tx-kesearch-pi1 form{
+.input-group form{
     border: 0 none;
     margin: 0 0 20px 0;
 }
-.tx-kesearch-pi1 form fieldset{
+.input-group form fieldset{
 	margin:0;
 	padding:0;
 }
-.tx-kesearch-pi1 .kesearch_searchbox {
+.input-group .kesearch_searchbox {
 	border:none;
-}
-.tx-kesearch-pi1 input[type="text"],
-.tx-kesearch-pi1 select,
-.tx-kesearch-pi1 textarea{
+}    
+
+.input-group input[type="text"],
+.input-group select,
+.input-group textarea{
     padding: 0.3em 0.3em 0.3em 0.4em;
     background: white;
     border: 1px solid #bbbbbb;
@@ -33,19 +33,18 @@
     -moz-border-radius: 2px;
     border-radius: 2px;
     color: #2b2b2b;
+    width: 75%;
 }
-.tx-kesearch-pi1 input[type="text"]:focus,
-.tx-kesearch-pi1 input[type="text"]:hover,
-.tx-kesearch-pi1 select:focus,
-.tx-kesearch-pi1 select:hover,
-.tx-kesearch-pi1 textarea:focus,
-.tx-kesearch-pi1 textarea:hover{
+.input-group input[type="text"]:focus,
+.input-group input[type="text"]:hover,
+.input-group select:focus,
+.input-group select:hover,
+.input-group textarea:focus,
+.input-group textarea:hover{
     box-shadow: 0 0 3px #bbbbbb;
     border: 1px solid #b2b2b2;
     color: #000;
 }
-
-
 
 /* Buttons */
 a.kesGreyButt,
@@ -282,7 +281,6 @@ span.kesGreyButt a:hover{
 #kesearch_results .result-list-item .result-teaser {
 	color:#707070;
 }
-.input-group #kesearch_results .result-list-item-type-page { }
 
 .input-group #kesearch_results .teaser_icon img {
     float:left;
@@ -294,8 +292,7 @@ span.kesGreyButt a:hover{
     color: red;
     font-weight: bold;
 }
-.input-group #kesearch_results .result-list-item .add-info {
-}
+
 .input-group #kesearch_results .result-list-item .scoreBar {
     border: 1px solid #D3D3D3;
     display: block;

@@ -10,7 +10,7 @@ set('application', 'typo3-project2');
 set('repository', 'https://github.com/mespana/typo3-project2.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
-set('git_tty', false);
+set('git_tty', true);
 
 // Set maximum releases backup
 //set('keep_releases', 5);
@@ -26,7 +26,7 @@ set('use_relative_symlink', '0');
 // Hosts
 
 host('ftp109730-2622751@marianaespana.com')
-    ->set('deploy_path', '~/www/marianaespana/proyectos/typo3-project2'//);
+    ->set('deploy_path', '~/www/marianaespana/proyectos/typo3-project2');
 
 //DocumentRoot / WebRoot for the TYPO3 automaticInstallation
 set('typo3_webroot', 'public');

@@ -11,8 +11,6 @@ page {
     includeCSS {
         theme = EXT:gowords_typo3project1/Resources/Public/Scss/Theme/theme.scss
         css = EXT:gowords_typo3project1/Resources/Public/Css/styles.css 
-        css = EXT:gowords_typo3project1/Resources/Public/Fontawesome/Css/all.css
-
     }
 
     includeJSLibs {
@@ -28,7 +26,7 @@ page {
     }
 
     includeJSFooter {
-        typo3_project1_scripts = EXT:gowords_typo3project1/Resources/Public/JavaScript/Dist/scripts.js
+        project1_scripts = EXT:gowords_typo3project1/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
 
@@ -120,32 +118,6 @@ lib.headerSearch_plugin {
 
   10.cssFile = EXT:gowords_typo3project1/Resources/Public/Css/styles.css
 
-  10.loadFlexformsFromOtherCE = 156 // Search form plugin UID
+  10.loadFlexformsFromOtherCE = 191 // Search form plugin UID
 }
 
-
-##############
-#### NEWS ####
-##############
-
-
-// load the new template path for NEWS +ext
-// load the new partial path for NEWS +ext
-
-plugin.tx_news {
-  view {
-    templateRootPaths {
-      200 = EXT:gowords_typo3project1/Resources/Private/Extensions/newsstylist/Twb/Templates/
-        }
-    partialRootPaths {
-        200 =  EXT:gowords_typo3project1/Resources/Private/Extensions/newsstylist/Twb/Partials/
-      }
-    }
-    settings {
-        list {
-            media {
-              dummyImage = EXT:news/Resources/Public/Images/pexels-scott-webb-k.jpg
-            }
-        }
-    }
-}
